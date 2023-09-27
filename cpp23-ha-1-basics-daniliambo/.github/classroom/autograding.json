@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Run unit test primes",
+      "setup": "mkdir -p build; cd build; cmake .. -DCMAKE_BUILD_TYPE=Release; cmake --build .;",
+      "run": "cd build; ctest -R count_primes",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 25
+    },
+    {
+      "name": "Run unit test divide",
+      "setup": "mkdir -p build; cd build; cmake .. -DCMAKE_BUILD_TYPE=Release; cmake --build .;",
+      "run": "cd build; ctest -R divide",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 25
+    },
+    {
+      "name": "Run unit test roman_to_int",
+      "setup": "mkdir -p build; cd build; cmake .. -DCMAKE_BUILD_TYPE=Release; cmake --build .;",
+      "run": "cd build; ctest -R roman_to_int",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 25
+    },
+    {
+      "name": "Run unit test sum_digits",
+      "setup": "mkdir -p build; cd build; cmake .. -DCMAKE_BUILD_TYPE=Release; cmake --build .;",
+      "run": "cd build; ctest -R sum_digits",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 25
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+Start testing: Sep 23 02:17 MSK
+----------------------------------------------------------
+1/1 Testing: message
+1/1 Test: message
+Command: "/Users/dev.daniil.bakushkin/github-classroom/itmo-mse-cpp/cpp23-ha-0-tutorial-daniliambo/build/test/tutorial_tests" "message"
+Directory: /Users/dev.daniil.bakushkin/github-classroom/itmo-mse-cpp/cpp23-ha-0-tutorial-daniliambo/build/test
+"message" start time: Sep 23 02:17 MSK
+Output:
+----------------------------------------------------------
+Filters: message
+Randomness seeded to: 2641716028
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"message" end time: Sep 23 02:17 MSK
+"message" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 23 02:17 MSK

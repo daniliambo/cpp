@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Run unit test",
+      "setup": "mkdir build; cd build; cmake .. -DCMAKE_BUILD_TYPE=Release; cmake --build .;",
+      "run": "ctest build",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": null
+    },
+    {
+      "name": "Run app test",
+      "setup": "mkdir build; cd build; cmake .. -DCMAKE_BUILD_TYPE=Release; cmake --build .",
+      "run": "./build/src/tutorial",
+      "input": "",
+      "output": "Hello, World!",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": null
+    }
+  ]
+}
